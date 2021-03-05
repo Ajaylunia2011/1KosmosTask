@@ -2,7 +2,7 @@
 
 This Repository contains solutions for 1Kosmos Interview Questions for the recruitment process
 
-# Run Test 
+# Pre-Requisites  
 
 * Java version 1.8 should be pre-installed. 
 * Open this code in any of the ide, I have made this code run on both Eclipse IDE and Intellij Idea community edition.
