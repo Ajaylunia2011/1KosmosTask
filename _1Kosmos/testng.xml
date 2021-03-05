@@ -1,0 +1,13 @@
+<suite name="Suite1" verbose="1" >
+    <test name="WebAutomationTests" >
+        <classes>
+            <class name="WebAutomationTestClass"/>
+        </classes>
+    </test>
+    <test name="APITests" >
+        <classes>
+            <class name="APITestClass"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="74744" started-at="2021-03-05T09:17:24 IST" finished-at="2021-03-05T09:18:39 IST">
+    <groups>
+    </groups>
+    <test name="WebAutomationTests" duration-ms="68322" started-at="2021-03-05T09:17:24 IST" finished-at="2021-03-05T09:18:33 IST">
+      <class name="WebAutomationTestClass">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:WebAutomationTestClass@70beb599]" name="initDriver" is-config="true" duration-ms="17632" started-at="2021-03-05T09:17:25 IST" finished-at="2021-03-05T09:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="validateTestFlow(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:WebAutomationTestClass@70beb599]" name="validateTestFlow" duration-ms="50446" started-at="2021-03-05T09:17:42 IST" data-provider="Form Data" finished-at="2021-03-05T09:18:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Last Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestParentName]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TestPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestFlow -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:WebAutomationTestClass@70beb599]" name="quitDriver" is-config="true" duration-ms="190" started-at="2021-03-05T09:18:33 IST" finished-at="2021-03-05T09:18:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- WebAutomationTestClass -->
+    </test> <!-- WebAutomationTests -->
+    <test name="APITests" duration-ms="6391" started-at="2021-03-05T09:18:33 IST" finished-at="2021-03-05T09:18:39 IST">
+      <class name="APITestClass">
+        <test-method status="PASS" signature="validateHealthzAPI(java.lang.String)[pri:0, instance:APITestClass@3d3fcdb0]" name="validateHealthzAPI" duration-ms="6387" started-at="2021-03-05T09:18:33 IST" data-provider="health API" finished-at="2021-03-05T09:18:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHealthzAPI -->
+      </class> <!-- APITestClass -->
+    </test> <!-- APITests -->
+  </suite> <!-- Suite1 -->
+</testng-results>

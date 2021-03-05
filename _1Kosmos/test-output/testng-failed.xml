@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="WebAutomationTests(failed)">
+    <classes>
+      <class name="WebAutomationTestClass">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="validateTestFlow" invocation-numbers="0"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- WebAutomationTestClass -->
+    </classes>
+  </test> <!-- WebAutomationTests(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
